@@ -140,7 +140,7 @@ public class Percolation {
         return (shiftRow >= 0 && shiftCol >= 0 && shiftRow < gridSize && shiftCol < gridSize);
     }
 
-    /* private void runTests() {
+    private void runTests() {
         for (int row = 1; row <= gridSize; row++) {
             for (int col = 1; col <= gridSize; col++) {
                 if (isOpen(row, col)) {
@@ -164,6 +164,6 @@ public class Percolation {
             StdOut.printf("Does not Percolate %n");
         }
     }
-*/
+
 }
 
